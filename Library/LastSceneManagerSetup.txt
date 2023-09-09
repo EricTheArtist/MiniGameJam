@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Rayyan/RayyanTestScene.unity
+- path: Assets/FINAL_GAME/GAME.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
