@@ -1,0 +1,500 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1694271473743258, "dur": 3760849, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271473743488, "dur": 13298, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271473756791, "dur": 39084, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271473795877, "dur": 449448, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271474245326, "dur": 3245522, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271477490850, "dur": 13256, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271477504436, "dur": 14, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1694271474113454, "dur": 118599, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474114621, "dur": 41414, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474216655, "dur": 4137, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474220795, "dur": 11250, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474221523, "dur": 10046, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474236348, "dur": 1284, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1694271474235518, "dur": 2142, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271477504521, "dur": 1263, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694271474281886, "dur":854, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271474282756, "dur":100, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694271474282889, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694271474282907, "dur":316, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694271474283247, "dur":437, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271474283684, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477476706, "dur":346, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477052, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477077, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477080, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477088, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477090, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477097, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477098, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477104, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477106, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477113, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477115, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477121, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477122, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477129, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477131, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477137, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477139, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477146, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477148, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477154, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477156, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477162, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477164, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477170, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477188, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477477221, "dur":909, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694271474284044, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474284044, "dur":1194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474285246, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1694271474285302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474286274, "dur":27613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1694271474313904, "dur":205080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474518988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474518995, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474519541, "dur":114479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474634024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474634032, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474634588, "dur":48540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474683131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474683136, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474683598, "dur":119964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474803564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474803569, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474804033, "dur":109771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474913809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271474913819, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271474914680, "dur":144128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475058812, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271475058820, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475059398, "dur":277689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475337092, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271475337101, "dur":5701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475342814, "dur":69871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475412690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271475412700, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475413423, "dur":113785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475527212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271475527219, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475528002, "dur":268178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475796183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694271475796190, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694271475797620, "dur":1679116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474283591, "dur":141, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474283732, "dur":1531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474285263, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694271474285307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474286193, "dur":23672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694271474309879, "dur":52550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474362434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474362441, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474362972, "dur":104368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474467359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474467367, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474467924, "dur":171765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474639694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474639701, "dur":624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474640335, "dur":128328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474768669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474768681, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474769249, "dur":41095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474810348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474810413, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474810944, "dur":137842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474948790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271474948797, "dur":28216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271474977032, "dur":284378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475261414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271475261422, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475261970, "dur":41488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475303462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271475303470, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475304210, "dur":92410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475396625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271475396635, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475397317, "dur":112837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475510161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271475510175, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271475511047, "dur":640361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271476151411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694271476151418, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694271476152951, "dur":1323756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271474284760, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271474284760, "dur":538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271474285299, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1694271474285351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271474290925, "dur":12696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1694271474303635, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1694271474303660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271474303664, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1694271474308568, "dur":793084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694271475101656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271475101662, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1694271475107255, "dur":110981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475218240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271475218247, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475218814, "dur":64730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475283549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271475283558, "dur":699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475284274, "dur":208023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475492304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271475492318, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475493269, "dur":258626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475751899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694271475751906, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694271475752664, "dur":1724069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271474283992, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271474283992, "dur":1304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271474285296, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1694271474285361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271474291197, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1694271474293374, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1694271474293395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271474293409, "dur":12123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1694271474305543, "dur":1774908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694271476080454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694271476080488, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694271476083372, "dur":1393361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474283717, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474283718, "dur":1519, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474285245, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1694271474285251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474285909, "dur":318, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1694271474286233, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1694271474286253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474286343, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1694271474287770, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694271474287797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474287972, "dur":15328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694271474303311, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694271474303332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474303338, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694271474305116, "dur":86834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474391954, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474392095, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474392863, "dur":53227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474446094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474446102, "dur":585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474446698, "dur":178848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474625550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474625557, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474626070, "dur":56745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474682819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474682827, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474683439, "dur":241079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474924523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271474924532, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271474925364, "dur":222974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475148342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271475148348, "dur":543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475148901, "dur":382588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475531494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271475531510, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475532318, "dur":56144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475588467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271475588477, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475591933, "dur":374540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475966486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694271475966507, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694271475968624, "dur":1508089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474284311, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474284312, "dur":985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474285297, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694271474285367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474291130, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694271474293197, "dur":15507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1694271474308707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474308713, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1694271474309263, "dur":31171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam.exe" }}
+,{ "pid":12345, "tid":6, "ts":1694271474340437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474340443, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam.exe" }}
+,{ "pid":12345, "tid":6, "ts":1694271474341285, "dur":28703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474369991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474369998, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474370574, "dur":60898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474431476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474431483, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474434829, "dur":27935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474462768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474462774, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474463338, "dur":99171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474562513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474562520, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474563147, "dur":65178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474628329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474628340, "dur":614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474628966, "dur":184516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474813486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474813492, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474814057, "dur":113823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474927883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271474927889, "dur":49119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271474977025, "dur":85963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475062992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475062999, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475063495, "dur":199146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475262644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475262651, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475263208, "dur":97339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475360570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475360579, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475361404, "dur":127084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475488492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475488501, "dur":898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475489417, "dur":51268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475540690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475540698, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475541420, "dur":191970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475733394, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475733408, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694271475734619, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1694271475734633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475734647, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1694271475735674, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1694271475735690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475735697, "dur":6901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1694271475742624, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1694271475742646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475742658, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1694271475744688, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1694271475745578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475745591, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1694271475746371, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1694271475746392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475746400, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1694271475747480, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1694271475747497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475747502, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1694271475748240, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1694271475748356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694271475748363, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1694271475748964, "dur":1727726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474283858, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474283858, "dur":1440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474285298, "dur":10629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1694271474295929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474295936, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1694271474296443, "dur":12200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1694271474308646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474308656, "dur":601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1694271474309267, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1694271474309289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474309387, "dur":48433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1694271474357839, "dur":20005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474377848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474377854, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474378379, "dur":73775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474452158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474452166, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474452801, "dur":370329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474823135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474823142, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474824433, "dur":102457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474926895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271474926903, "dur":49834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271474976761, "dur":99774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475076539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271475076546, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475077127, "dur":142311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475219440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271475219461, "dur":472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475219942, "dur":77215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475297163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271475297173, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475297865, "dur":418507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475716378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271475716387, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271475717378, "dur":424987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271476142368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694271476142375, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694271476143054, "dur":1333680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474284175, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474284175, "dur":1062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474285246, "dur":32306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1694271474317556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474317708, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1694271474318232, "dur":30087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474348323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474348356, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474348917, "dur":19572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474368493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474368500, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474369892, "dur":82263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474452159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474452166, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474452793, "dur":335851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474788648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474788655, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474789249, "dur":150523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474939778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271474939783, "dur":37308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271474977106, "dur":88608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475065718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271475065725, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475066245, "dur":306546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475372800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271475372861, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475373666, "dur":220950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475594622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271475594631, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475595922, "dur":50075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475646005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271475646015, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475646765, "dur":338632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475985457, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694271475985479, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694271475987487, "dur":1489202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474284381, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474284381, "dur":858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474285245, "dur":28238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694271474313486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474313493, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1694271474314049, "dur":394160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474708213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474708221, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474708763, "dur":50113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474758899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474758908, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474760353, "dur":42710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474803068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474803076, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474803676, "dur":136074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474939754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271474939764, "dur":37359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271474977139, "dur":124517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475101658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475101664, "dur":11793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475113468, "dur":168467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475281941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475281952, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475282670, "dur":47843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475330517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475330525, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475331159, "dur":406680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475737886, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475737907, "dur":5356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694271475743298, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1694271475743452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475743463, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1694271475744877, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694271475744895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475744903, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1694271475746461, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1694271475746479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475746484, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1694271475747359, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694271475747377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694271475747412, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1694271475748288, "dur":1728403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271474284507, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271474284508, "dur":787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271474285295, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1694271474285372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271474291320, "dur":13319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1694271474304651, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1694271474304671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271474304676, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1694271474308347, "dur":3153785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694271477462143, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694271477462160, "dur":14486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694271477476662, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1694271477476665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474284992, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474284992, "dur":271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474285263, "dur":27883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1694271474313149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474313166, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1694271474313899, "dur":21375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474335277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474335406, "dur":444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474335859, "dur":19623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474355486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474355493, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474356040, "dur":71546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474427590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474427597, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474428154, "dur":51275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474479433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474479440, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474480006, "dur":161445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474641454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474641460, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474641948, "dur":271800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474913754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474913766, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474914693, "dur":63336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474978032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271474978040, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271474978608, "dur":74592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475053210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475053217, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475053820, "dur":32202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475086026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475086033, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475086557, "dur":32516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475119077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475119084, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475119579, "dur":182210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475301794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475301804, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475302556, "dur":135460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475438021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475438030, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475439197, "dur":48766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475487969, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475487981, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475488851, "dur":137332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475626188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271475626199, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271475626996, "dur":1757369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271477384369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694271477384375, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694271477386720, "dur":89992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474284644, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474284644, "dur":652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474285297, "dur":27530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1694271474312831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474312863, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1694271474313703, "dur":216806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474530513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474530524, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474531064, "dur":247063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474778131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474778138, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474778843, "dur":143069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474921917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474921926, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474922594, "dur":74025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474996637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271474996644, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271474997162, "dur":59289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475056456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475056464, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475057250, "dur":219865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475277120, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475277130, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475277867, "dur":90551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475368424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475368433, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475369426, "dur":199819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475569250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475569260, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475570121, "dur":160452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475730578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475730588, "dur":1007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475731615, "dur":104635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475836254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694271475836261, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Working data/MiniGameJam/buILD1/MiniGameJam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694271475836775, "dur":1639962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694271477478876, "dur":1432, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1694271477505834, "dur": 573, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1694271477504424, "dur": 1999, "ph": "X", "name": "Write chrome-trace events", "args": {} },

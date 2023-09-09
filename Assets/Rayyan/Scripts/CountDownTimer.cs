@@ -12,9 +12,18 @@ public class CountDownTimer : MonoBehaviour
     public TextMeshProUGUI minuteTexts;
     public TextMeshProUGUI secondTexts;
 
+    public GameObject Eggprefab;
+    public ParticleSystem deathEffect;
+
     void Update()
     {
         CountdownTimer();
+        if (fullTime <= 0)
+        {
+            Eggprefab.SetActive(false);
+            deathEffect.Play();
+            //Application.Quit();
+        }
     }
 
     void CountdownTimer()
@@ -27,6 +36,13 @@ public class CountDownTimer : MonoBehaviour
 
             minuteTexts.text = minutes.ToString();
             secondTexts.text = seconds.ToString();
+        }
+
+        if (fullTime < 30)
+        {
+            minuteTexts.color=Color.red;
+            secondTexts.color=Color.red;
+            
         }
     }
 }

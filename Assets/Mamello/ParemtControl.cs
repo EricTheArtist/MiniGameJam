@@ -19,6 +19,7 @@ public class ParemtControl : MonoBehaviour
         var platformMovement = other.collider.GetComponent<TopDownMovementController>();
         if (platformMovement != null)
         {
+            Debug.Log("Exited Collider");
             platformMovement.ResetParent();
         }
     }

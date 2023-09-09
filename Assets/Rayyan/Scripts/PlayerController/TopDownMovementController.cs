@@ -147,6 +147,7 @@ public class TopDownMovementController : MonoBehaviour
     bool CheckGrounding(bool TestBool)
     {
         isGrounded = Physics.Raycast(transform.position, Vector3.down, temp, groundLayer);
+        Debug.DrawLine(transform.position,Vector3.back*temp,Color.red);
         return isGrounded;
     }
 }

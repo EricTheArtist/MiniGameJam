@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BounceStateSc : MonoBehaviour
+public class BounceState : MonoBehaviour
 {
     public PhysicMaterial noBounce;
     public PhysicMaterial bounce;
