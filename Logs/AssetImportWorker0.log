@@ -188,3 +188,9 @@ Received Import Request.
   path: Assets/EricImports/NoodleChunk.prefab
   artifactKey: Guid(676bae5424995536798e4357e5f6bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/EricImports/NoodleChunk.prefab using Guid(676bae5424995536798e4357e5f6bfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2d7f840926fda0d09e99087e2eb2b2') in 0.008806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.057594 seconds.
+  path: Assets/EricImports/Bowl.fbx
+  artifactKey: Guid(726f42beaefaac0368726cd600251c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EricImports/Bowl.fbx using Guid(726f42beaefaac0368726cd600251c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1a3e39dbfedec730369cc1195c28fa') in 0.052967 seconds 
