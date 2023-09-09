@@ -182,3 +182,15 @@ Received Import Request.
   path: Assets/EricImports/BowlNoodles.fbx
   artifactKey: Guid(113189b177a584e7faeb8e220e9b46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/EricImports/BowlNoodles.fbx using Guid(113189b177a584e7faeb8e220e9b46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb79b382ecb135bae8063b407bcdf18b') in 0.163531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.516397 seconds.
+  path: Assets/EricImports/ExitButtonbase.fbx
+  artifactKey: Guid(377306f2a2be4262987d5111339e0dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EricImports/ExitButtonbase.fbx using Guid(377306f2a2be4262987d5111339e0dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc22bfcd8643d1c612d5050f0499dfdd') in 0.018098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EricImports/MeatTex.png
+  artifactKey: Guid(558852380ae59528dba7d4d36559ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EricImports/MeatTex.png using Guid(558852380ae59528dba7d4d36559ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770a1fdee29d7dcb2caa5afd70a0fb97') in 0.016097 seconds 

@@ -194,3 +194,15 @@ Received Import Request.
   path: Assets/EricImports/Bowl.fbx
   artifactKey: Guid(726f42beaefaac0368726cd600251c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/EricImports/Bowl.fbx using Guid(726f42beaefaac0368726cd600251c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1a3e39dbfedec730369cc1195c28fa') in 0.052967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.627089 seconds.
+  path: Assets/EricImports/ExitButton.fbx
+  artifactKey: Guid(f1b2317a12c9cad6996f6b08d9da5111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EricImports/ExitButton.fbx using Guid(f1b2317a12c9cad6996f6b08d9da5111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa20f0d8717b9be341f2061af91f8c4') in 0.024517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EricImports/Pork.fbx
+  artifactKey: Guid(cd0d638b42532d0f1912c16a1a44ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EricImports/Pork.fbx using Guid(cd0d638b42532d0f1912c16a1a44ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d225d5796be0e5a83f0222917d9ad27') in 0.016588 seconds 
